@@ -29,28 +29,47 @@ const config = {
     // telegram: '',
     // website: 'https://arifszn.com',
     // phone: '',
-    // email: 'arifulalamszn@gmail.com',
+    email: 'darwin0630@gmail.com',
   },
   resume: {
     // fileUrl:
     //   'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Python',
+    'C/C++',
+    'Go',
+    'Java',
+    'SQL (Postgres, MySQL)',
+    'JavaScript',
+    'HTML/CSS',
+    'C#',
     'PHP',
+    'bash',
+    'MATLAB',
+
     'Laravel',
     'JavaScript',
     'React.js',
+
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Vue.js',
+    'Flask',
+    'Angular',
+    'Nginx',
+    'PyTorch',
+    'Scikit-learn',
+    'Pandas',
+    'Numpy',
+    'TensorFlow',
+
+    'Git (GitHub, GitLab)',
+    'Jupyter',
+    'MongoDB',
+    'Azure',
+    'AWS'
   ],
+  
   experiences: [
     {
       company: 'Firmstudio',
@@ -70,6 +89,12 @@ const config = {
       position: 'Software Developer',
       from: 'October 2020',
       to: 'April 2021',
+    },
+    {
+      company: 'Green River College Math Learning Center',
+      position: 'Math Tutor',
+      from: 'July 2019',
+      to: 'June 2020',
     },
   ],
   /* certifications: [
@@ -108,14 +133,30 @@ const config = {
       description:
         'An innovative online platform for Hong Kong photographers to purchase gear and for merchants to create their online shops',
       // imageUrl: 'https://via.placeholder.com/250x250',
-      // link: 'https://example.com',
+      link: '',
+      majorLang: ['JavaScript', 'HTML', 'C#'],
+    },
+    {
+      title: 'Copy Folder Structure Mac App',
+      description:
+        'A user-friendly Mac App that replicates a source folder structure to a target path',
+      link: 'https://github.com/darwindev2002/py-copy-directory-structure',
+      majorLang: ['Python'],
+    },
+    {
+      title: 'Vectorization for Aliev-Panfilov Cardiac Simulation',
+      description:
+        'A vectorized version of the Aliev-Panfilov cardiac simulation through multi-threading and concurrency, achieved 87-99% scaling efficiency on various core counts',
+      link: '',
+      majorLang: ['C++', 'MPI'],
     },
     {
       title: 'Ready Meal One',
       description:
-        'A user-friendly Web App team project for college students to quickly access recipes',
+        'A user-friendly Web App team project for college students to quickly access and save recipes',
       imageUrl: './src/assets/ready-meal-one-logo_no-text.png',
       link: 'https://github.com/darwindev2002/-cse110-fa21-group1',
+      majorLang: ['JavaScript', 'HTML', 'CSS'],
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
