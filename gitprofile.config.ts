@@ -39,23 +39,54 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'SurfStore Cloud-Based File Storage',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'A Dropbox-inspired scalable cloud storage service, enabling file sync across clients with gRPC, integrated RAFT protocol for metadata server replication and consistent hashing for efficient data distribution',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: '',
+          majorLang: ['Go', 'bash'],
         },
         {
-          title: 'Project Name',
+          title: '2048 AI',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'An AI player for the classic 2048 game, utilizing the expectimax search algorithm, consistenly achieving scores above 20,000 and successfully reached the 2048 tile',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: '',
+          majorLang: ['Python'],
+        },
+        {
+          title: 'Project X',
+          description:
+            'An innovative online platform for Hong Kong photographers to purchase gear and for merchants to create their online shops',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: '',
+          majorLang: ['JavaScript', 'HTML', 'C#'],
+        },
+        {
+          title: 'Copy Folder Structure Mac App',
+          description:
+            'A user-friendly Mac App that replicates a source folder structure to a target path',
+          link: 'https://github.com/darwindev2002/py-copy-directory-structure',
+          majorLang: ['Python'],
+        },
+        {
+          title: 'Vectorization for Aliev-Panfilov Cardiac Simulation',
+          description:
+            'A vectorized version of the Aliev-Panfilov cardiac simulation through multi-threading and concurrency, achieved 87-99% scaling efficiency on various core counts',
+          link: '',
+          majorLang: ['C++', 'MPI'],
+        },
+        {
+          title: 'Ready Meal One',
+          description:
+            'A user-friendly Web App team project for college students to quickly access and save recipes',
+          imageUrl: './src/assets/ready-meal-one-logo_no-text.png',
+          link: 'https://github.com/darwindev2002/-cse110-fa21-group1',
+          majorLang: ['JavaScript', 'HTML', 'CSS'],
         },
       ],
     },
+    
   },
   seo: {
     title: 'Portfolio of Ariful Alam',
@@ -151,12 +182,12 @@ const CONFIG = {
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // {
+    //   name: 'Lorem ipsum',
+    //   body: 'Lorem ipsum dolor sit amet',
+    //   year: 'March 2022',
+    //   link: 'https://example.com',
+    // },
   ],
   educations: [
     {
@@ -179,55 +210,6 @@ const CONFIG = {
     },
   ],
 
-  // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'SurfStore Cloud-Based File Storage',
-      description:
-        'A Dropbox-inspired scalable cloud storage service, enabling file sync across clients with gRPC, integrated RAFT protocol for metadata server replication and consistent hashing for efficient data distribution',
-      // imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
-      majorLang: ['Go', 'bash'],
-    },
-    {
-      title: '2048 AI',
-      description:
-        'An AI player for the classic 2048 game, utilizing the expectimax search algorithm, consistenly achieving scores above 20,000 and successfully reached the 2048 tile',
-      // imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
-      majorLang: ['Python'],
-    },
-    {
-      title: 'Project X',
-      description:
-        'An innovative online platform for Hong Kong photographers to purchase gear and for merchants to create their online shops',
-      // imageUrl: 'https://via.placeholder.com/250x250',
-      link: '',
-      majorLang: ['JavaScript', 'HTML', 'C#'],
-    },
-    {
-      title: 'Copy Folder Structure Mac App',
-      description:
-        'A user-friendly Mac App that replicates a source folder structure to a target path',
-      link: 'https://github.com/darwindev2002/py-copy-directory-structure',
-      majorLang: ['Python'],
-    },
-    {
-      title: 'Vectorization for Aliev-Panfilov Cardiac Simulation',
-      description:
-        'A vectorized version of the Aliev-Panfilov cardiac simulation through multi-threading and concurrency, achieved 87-99% scaling efficiency on various core counts',
-      link: '',
-      majorLang: ['C++', 'MPI'],
-    },
-    {
-      title: 'Ready Meal One',
-      description:
-        'A user-friendly Web App team project for college students to quickly access and save recipes',
-      imageUrl: './src/assets/ready-meal-one-logo_no-text.png',
-      link: 'https://github.com/darwindev2002/-cse110-fa21-group1',
-      majorLang: ['JavaScript', 'HTML', 'CSS'],
-    },
-  ],
   // Display blog posts from your medium or dev account. (Optional)
   // blog: {
   //   source: 'dev', // medium | dev

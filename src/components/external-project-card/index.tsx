@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
-import { ga, skeleton } from '../../utils';
+import { ga, getLanguageColor, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
@@ -88,34 +88,29 @@ const ExternalProjectCard = ({
           window?.open(item.link, '_blank');
         }}
       >
-        <div className="p-8 h-full w-full">
-          <div className="flex items-center flex-col">
-            <div className="w-full">
-              <div className="px-4">
-                <div className="text-center w-full">
-                  <h2 className="font-semibold text-lg tracking-wide text-center opacity-60 mb-2">
-                    {item.title}
-                  </h2>
-                  {item.imageUrl && (
-                    <div className="avatar opacity-90">
-                      <div className="w-20 h-20 mask mask-squircle">
-                        <LazyImage
-                          src={item.imageUrl}
-                          alt={'thumbnail'}
-                          placeholder={skeleton({
-                            widthCls: 'w-full',
-                            heightCls: 'h-full',
-                            shape: '',
-                          })}
-                        />
-                      </div>
-                    </div>
-                  )}
-                  <p className="mt-1 text-base-content text-opacity-60 text-sm">
-                    {item.description}
-                  </p>
-                </div>
+        <div className="flex justify-between flex-col p-8 h-full w-full">
+          <div>
+            <div className="flex items-center">
+              <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
+                {/* <MdInsertLink className="my-auto" /> */}
+                <span>{item.title}</span>
               </div>
+            </div>
+            <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
+              {item.description}
+            </p>
+          </div>
+          <div className="flex justify-between text-sm text-base-content text-opacity-60 truncate">
+            <div className="flex flex-grow">
+              {item.majorLang?.map((lang, index) => (
+                <span className="mr-3 flex items-center" key={index}>
+                  <div
+                    className="w-3 h-3 rounded-full mr-1 opacity-60"
+                    style={{ backgroundColor: getLanguageColor(lang) }}
+                  />
+                  <span>{lang}</span>
+                </span>
+              ))}
             </div>
           </div>
         </div>
