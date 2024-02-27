@@ -1,11 +1,6 @@
 import { Fragment } from 'react';
-
-import PropTypes from 'prop-types';
-import { AiOutlineFork, AiOutlineStar } from 'react-icons/ai';
-import { MdInsertLink } from 'react-icons/md';
-import { ga, languageColor, skeleton } from '../../helpers/utils';
 import LazyImage from '../lazy-image';
-// import { Project as GProject } from '../project';
+import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
@@ -72,59 +67,6 @@ const ExternalProjectCard = ({
   };
 
   const renderExternalProjects = () => {
-    return externalProjects.map((item, index) => (
-      <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
-        href={item.link}
-        key={index}
-        onClick={(e) => {
-          e.preventDefault();
-
-          try {
-            if (googleAnalytics?.id) {
-              ga.event({
-                action: 'Click External Project',
-                params: {
-                  post: item.title,
-                },
-              });
-            }
-          } catch (error) {
-            console.error(error);
-          }
-
-          window?.open(item.link, '_blank');
-        }}
-      >
-        <div className="flex justify-between flex-col p-8 h-full w-full">
-          <div>
-            <div className="flex items-center">
-              <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
-                {/* <MdInsertLink className="my-auto" /> */}
-                <span>{item.title}</span>
-              </div>
-            </div>
-            <p className="mb-5 mt-1 text-base-content text-opacity-60 text-sm">
-              {item.description}
-            </p>
-          </div>
-          <div className="flex justify-between text-sm text-base-content text-opacity-60 truncate">
-            <div className="flex flex-grow">
-              {item.majorLang.map((lang, index) => (
-                <span className="mr-3 flex items-center" key={index}>
-                  <div
-                    className="w-3 h-3 rounded-full mr-1 opacity-60"
-                    style={{ backgroundColor: languageColor(lang) }}
-                  />
-                  <span>{lang}</span>
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </a>
-    ))
-
     return externalProjects.map((item, index) => (
       <a
         className="card shadow-lg compact bg-base-100 cursor-pointer"
