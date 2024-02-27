@@ -40,27 +40,31 @@ const config = {
     'C/C++',
     'Go',
     'Java',
-    'SQL (Postgres, MySQL)',
+    'SQL (Postgres, MySQL, NoSQL)',
     'JavaScript',
     'HTML/CSS',
     'C#',
     'PHP',
     'bash',
     'MATLAB',
+    'R',
 
-    'Laravel',
-    'JavaScript',
     'React.js',
-
     'Node.js',
     'Vue.js',
-    'Flask',
     'Angular',
+
+    'Django',
+    'Flask',
+
+    'Laravel',
+
     'Nginx',
+
+    'Numpy',
     'PyTorch',
     'Scikit-learn',
     'Pandas',
-    'Numpy',
     'TensorFlow',
 
     'Git (GitHub, GitLab)',
@@ -128,6 +132,22 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    {
+      title: 'SurfStore Cloud-Based File Storage',
+      description:
+        'A Dropbox-inspired scalable cloud storage service, enabling file sync across clients with gRPC, integrated RAFT protocol for metadata server replication and consistent hashing for efficient data distribution',
+      // imageUrl: 'https://via.placeholder.com/250x250',
+      link: '',
+      majorLang: ['Go', 'bash'],
+    },
+    {
+      title: '2048 AI',
+      description:
+        'An AI player for the classic 2048 game, utilizing the expectimax search algorithm, consistenly achieving scores above 20,000 and successfully reached the 2048 tile',
+      // imageUrl: 'https://via.placeholder.com/250x250',
+      link: '',
+      majorLang: ['Python'],
+    },
     {
       title: 'Project X',
       description:
