@@ -55,6 +55,14 @@ const CONFIG = {
           majorLang: ['Python'],
         },
         {
+          title: 'darwindev2002.github.io - Portfolio Website',
+          description:
+            'A personal portfolio website built with React.js, TypeScript, and JavaScript to showcase education, experience, and projects.',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: '',
+          majorLang: ['TypeScript', 'JavaScript'],
+        },
+        {
           title: 'Project X',
           description:
             'An innovative online platform for Hong Kong photographers to purchase gear and for merchants to create their online shops',
