@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import LazyImage from '../lazy-image';
+// import LazyImage from '../lazy-image';
 import { ga, getLanguageColor, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
