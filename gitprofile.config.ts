@@ -43,7 +43,7 @@ const CONFIG = {
           description:
             'A Dropbox-inspired scalable cloud storage service, enabling file sync across clients with gRPC, integrated RAFT protocol for metadata server replication and consistent hashing for efficient data distribution',
           // imageUrl: 'https://via.placeholder.com/250x250',
-          link: '',
+          link: 'https://github.com/darwindev2002/cse224-wi23-project5-fault-tolerant-surfstore',
           majorLang: ['Go', 'bash'],
         },
         {
@@ -51,11 +51,19 @@ const CONFIG = {
           description:
             'An AI player for the classic 2048 game, utilizing the expectimax search algorithm, consistenly achieving scores above 20,000 and successfully reached the 2048 tile',
           // imageUrl: 'https://via.placeholder.com/250x250',
-          link: '',
+          link: 'https://github.com/darwindev2002/cse150b-sp22-pa2-2048-expectimax',
           majorLang: ['Python'],
         },
         {
-          title: 'darwindev2002.github.io - Portfolio Website',
+          title: 'The Hong Kong Association of Banks',
+          description:
+            'A website created for the Hong Kong Association of Banks to display current news, currency rates, and relavant content, built using Vue.js and .NET.',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: 'https://www.hkab.org.hk/',
+          majorLang: ['JavaScript', 'C#'],
+        },
+        {
+          title: 'darwindev2002.github.io - Personal Portfolio',
           description:
             'A personal portfolio website built with React.js, TypeScript, and JavaScript to showcase education, experience, and projects.',
           // imageUrl: 'https://via.placeholder.com/250x250',

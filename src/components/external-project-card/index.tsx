@@ -72,6 +72,7 @@ const ExternalProjectCard = ({
         className="card shadow-lg compact bg-base-100 cursor-pointer"
         key={index}
         href={item.link}
+        style={{cursor: item.link ? 'pointer' : 'default'}}
         onClick={(e) => {
           e.preventDefault();
 
@@ -85,7 +86,9 @@ const ExternalProjectCard = ({
             console.error(error);
           }
 
-          window?.open(item.link, '_blank');
+          if (item.link) {
+            window?.open(item.link, '_blank');
+          }
         }}
       >
         <div className="flex justify-between flex-col p-8 h-full w-full">
