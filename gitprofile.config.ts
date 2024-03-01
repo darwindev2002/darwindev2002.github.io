@@ -71,6 +71,14 @@ const CONFIG = {
           majorLang: ['TypeScript', 'JavaScript'],
         },
         {
+          title: 'TritonLink',
+          description:
+            'A database application, modeled after the UCSD\'s TritonLink system for enrollment and student information purpose',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: '',
+          majorLang: ['PostgreSQL', 'JDBC', 'Java', 'HTML', 'JSP'],
+        },
+        {
           title: 'Project X',
           description:
             'An innovative online platform for Hong Kong photographers to purchase gear and for merchants to create their online shops',
@@ -81,7 +89,7 @@ const CONFIG = {
         {
           title: 'Copy Folder Structure Mac App',
           description:
-            'A user-friendly Mac App that replicates a source folder structure to a target path',
+            'A user-friendly Mac application that duplicates a source folder structure to a target path. This was inspired by the need to create a backup of the storage system as a photographer and videographer.',
           link: 'https://github.com/darwindev2002/py-copy-directory-structure',
           majorLang: ['Python'],
         },
