@@ -47,6 +47,14 @@ const CONFIG = {
           majorLang: ['Go', 'bash'],
         },
         {
+          title: 'TritonHTTP',
+          description:
+            'A custom HTTP/1.1 server in Go with ability to handle GET requests with precise response statuses',
+          // imageUrl: 'https://via.placeholder.com/250x250',
+          link: 'https://github.com/darwindev2002/cse224-wi23-project2-tritonhttp',
+          majorLang: ['Go', 'bash'],
+        },
+        {
           title: '2048 AI',
           description:
             'An AI player for the classic 2048 game, utilizing the expectimax search algorithm, consistenly achieving scores above 20,000 and successfully reached the 2048 tile',
@@ -113,7 +121,7 @@ const CONFIG = {
     
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Darwin Chan',
     description: '',
     imageURL: '',
   },
@@ -131,7 +139,7 @@ const CONFIG = {
     // stackoverflow: '', // format: userid/username
     // skype: '',
     // telegram: '',
-    // website: 'https://arifszn.com',
+    website: 'https://darwindev2002.github.io',
     // phone: '',
     email: 'darwin0630@gmail.com',
   },
