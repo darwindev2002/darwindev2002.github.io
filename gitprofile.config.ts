@@ -160,7 +160,9 @@ const CONFIG = {
     'bash',
     'MATLAB',
     'R',
+    'Kotlin',
 
+    'Flutter',
     'React.js',
     'Node.js',
     'Vue.js',
