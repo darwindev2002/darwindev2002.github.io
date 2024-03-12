@@ -2,7 +2,6 @@
 
 const CONFIG = {
   github: {
-
     username: 'darwindev2002', // Your GitHub org/user name. (This is the only required config)
   },
   /**
@@ -23,9 +22,9 @@ const CONFIG = {
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [
-            "PhotoLandHK",
-            "04-nano-darwindev2002",
-            "05-classes-darwindev2002",
+            'PhotoLandHK',
+            '04-nano-darwindev2002',
+            '05-classes-darwindev2002',
           ], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -81,7 +80,7 @@ const CONFIG = {
         {
           title: 'TritonLink',
           description:
-            'A database application, modeled after the UCSD\'s TritonLink system for enrollment and student information purpose',
+            "A database application, modeled after the UCSD's TritonLink system for enrollment and student information purpose",
           // imageUrl: 'https://via.placeholder.com/250x250',
           link: '',
           majorLang: ['PostgreSQL', 'JDBC', 'Java', 'HTML', 'JSP'],
@@ -118,7 +117,6 @@ const CONFIG = {
         },
       ],
     },
-    
   },
   seo: {
     title: 'Portfolio of Darwin Chan',
@@ -162,14 +160,18 @@ const CONFIG = {
     'R',
     'Kotlin',
 
-    'Flutter',
     'React.js',
+    'Angular',
     'Node.js',
     'Vue.js',
-    'Angular',
+    'Next.js',
+    'Nest.js',
 
     'Django',
     'Flask',
+
+    'Flutter',
+    'React Native',
 
     'Laravel',
 
@@ -185,9 +187,9 @@ const CONFIG = {
     'Jupyter',
     'MongoDB',
     'Azure',
-    'AWS'
+    'AWS',
   ],
-  
+
   experiences: [
     {
       company: 'Firmstudio',
